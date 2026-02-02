@@ -1,12 +1,12 @@
-# 🐍 Terminal Snake Game
+ ## Terminal Snake Game
 
 A classic Snake game implementation in C that runs directly in your terminal!
 
-## 📋 Description
+##  Description
 
 This is a terminal-based Snake game written in pure C. Control the snake using arrow keys or WASD, eat food to grow longer, and try to achieve the highest score without hitting the walls or yourself!
 
-## ✨ Features
+##  Features
 
 - **Smooth Controls**: Responsive keyboard input using arrow keys or WASD
 - **Score Tracking**: Earn 10 points for each food item eaten
@@ -15,7 +15,7 @@ This is a terminal-based Snake game written in pure C. Control the snake using a
 - **Clean ASCII Graphics**: Simple and clear visual representation
 - **Adjustable Speed**: Easy to modify game speed in the code
 
-## 🎮 Game Elements
+##  Game Elements
 
 - `O` - Snake head
 - `o` - Snake body segments
@@ -23,7 +23,7 @@ This is a terminal-based Snake game written in pure C. Control the snake using a
 - `#` - Walls/borders
 - Score and length displayed below the game board
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -48,7 +48,7 @@ gcc -o snake_game snake_game.c -Wall -Wextra
 ./snake_game
 ```
 
-## 🎯 How to Play
+##  How to Play
 
 1. **Start the Game**: Run the compiled executable
 2. **Controls**:
@@ -60,7 +60,7 @@ gcc -o snake_game snake_game.c -Wall -Wextra
    - Running into your own body
 5. **Win Condition**: There's no winning - just try to beat your high score!
 
-## 🎲 Game Rules
+##  Game Rules
 
 - The snake starts with a length of 3 segments
 - Each food item eaten adds 1 segment to the snake's length
@@ -68,7 +68,7 @@ gcc -o snake_game snake_game.c -Wall -Wextra
 - The snake cannot reverse direction (e.g., if moving right, can't immediately go left)
 - Game ends on collision with walls or self
 
-## ⚙️ Customization
+##  Customization
 
 You can easily modify the game by changing these constants in the code:
 
@@ -94,7 +94,7 @@ Change the score increment in the code:
 score += 10;  // Change 10 to any value you prefer
 ```
 
-## 🛠️ Technical Details
+##  Technical Details
 
 ### Terminal Control
 The game uses:
@@ -116,7 +116,7 @@ The game runs at approximately 10 FPS (configurable) and follows this cycle:
 - Minimal memory footprint
 - No dynamic memory allocation
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Problem**: Arrow keys don't work
 - **Solution**: Make sure your terminal supports ANSI escape sequences. Try using WASD keys instead.
@@ -138,7 +138,7 @@ snake_game            # Compiled executable (after compilation)
 README.md             # This file
 ```
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 - Terminal I/O manipulation in C
@@ -148,11 +148,11 @@ This project demonstrates:
 - Real-time input handling
 - ANSI terminal control
 
-## 📜 License
+## License
 
 This is free and open-source software. Feel free to modify and distribute.
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to fork this project and add your own features! Some ideas:
 - Add difficulty levels
@@ -162,11 +162,11 @@ Feel free to fork this project and add your own features! Some ideas:
 - Add sound effects (terminal beep)
 - Implement different game modes
 
-## 📧 Support
+## Support
 
 If you encounter any issues or have questions, feel free to open an issue or reach out!
 
-## 🎉 Credits
+## Credits
 
 Classic Snake game concept - A timeless classic enjoyed by millions!
 
