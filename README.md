@@ -1,4 +1,4 @@
- ## Terminal Snake Game
+ ## 🐍Terminal Snake Game
 
 A classic Snake game implementation in C that runs directly in your terminal!
 
